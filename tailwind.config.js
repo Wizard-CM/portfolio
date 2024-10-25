@@ -5,10 +5,12 @@ module.exports = {
     extend: {
       colors:{
         // secondary_clr:"var(--secondary_color)",
-        secondary_clr:"#5cff3f",
+        secondary_clr:"currentColor",
         bg_secondary_clr:"var(--bg_secondary_color)"
       }
     },
   },
   plugins: [],
 }
+
+// #5cff3f

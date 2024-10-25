@@ -1,5 +1,7 @@
 npx tailwindcss -i ./CSS/input.css -o ./CSS/output.css --watch
 
+https://portfolio-jet-six-85.vercel.app/
+
 
 # tailwind configurations ( tailwind config is used for tailwind integration into my application && input.css just contains bunch of css properties inside layer) : Tailwind is just normal css with syntactic sugar.
 

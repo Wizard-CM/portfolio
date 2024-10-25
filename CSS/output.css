@@ -627,6 +627,11 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -659,12 +664,16 @@ video {
   display: none;
 }
 
+.h-5 {
+  height: 1.25rem;
+}
+
 .h-6 {
   height: 1.5rem;
 }
 
-.h-72 {
-  height: 18rem;
+.h-\[400px\] {
+  height: 400px;
 }
 
 .h-\[45px\] {
@@ -687,12 +696,20 @@ video {
   height: 100vh;
 }
 
+.h-\[35px\] {
+  height: 35px;
+}
+
 .min-h-\[337px\] {
   min-height: 337px;
 }
 
 .min-h-screen {
   min-height: 100vh;
+}
+
+.w-5 {
+  width: 1.25rem;
 }
 
 .w-6 {
@@ -719,8 +736,12 @@ video {
   width: 100%;
 }
 
-.max-w-\[1300px\] {
-  max-width: 1300px;
+.w-\[35px\] {
+  width: 35px;
+}
+
+.max-w-\[1200px\] {
+  max-width: 1200px;
 }
 
 .cursor-pointer {
@@ -745,6 +766,10 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .gap-2 {
@@ -805,8 +830,7 @@ video {
 }
 
 .border-secondary_clr {
-  --tw-border-opacity: 1;
-  border-color: rgb(92 255 63 / var(--tw-border-opacity));
+  border-color: currentColor;
 }
 
 .bg-\[\#00000047\] {
@@ -822,9 +846,13 @@ video {
   background-color: #ffff;
 }
 
-.bg-yellow-500 {
+.bg-current {
+  background-color: currentColor;
+}
+
+.bg-red-500 {
   --tw-bg-opacity: 1;
-  background-color: rgb(234 179 8 / var(--tw-bg-opacity));
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
 .p-8 {
@@ -912,6 +940,11 @@ video {
   font-size: 5rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -951,8 +984,7 @@ video {
 }
 
 .text-secondary_clr {
-  --tw-text-opacity: 1;
-  color: rgb(92 255 63 / var(--tw-text-opacity));
+  color: currentColor;
 }
 
 .text-white {
@@ -993,16 +1025,8 @@ video {
   transition-duration: 150ms;
 }
 
-.duration-100 {
-  transition-duration: 100ms;
-}
-
 .duration-1000 {
   transition-duration: 1000ms;
-}
-
-.duration-200 {
-  transition-duration: 200ms;
 }
 
 .duration-700 {
@@ -1030,8 +1054,7 @@ html,body{
 }
 
 .hover\:text-secondary_clr:hover {
-  --tw-text-opacity: 1;
-  color: rgb(92 255 63 / var(--tw-text-opacity));
+  color: currentColor;
 }
 
 @media (min-width: 640px) {
@@ -1110,15 +1133,19 @@ html,body{
     text-align: start;
   }
 
-  .lg\:text-\[1\.5rem\] {
-    font-size: 1.5rem;
+  .lg\:text-\[1\.2rem\] {
+    font-size: 1.2rem;
   }
 
-  .lg\:text-\[6\.5rem\] {
-    font-size: 6.5rem;
+  .lg\:text-\[1rem\] {
+    font-size: 1rem;
   }
 
-  .lg\:leading-\[6\.5rem\] {
-    line-height: 6.5rem;
+  .lg\:text-\[7\.5rem\] {
+    font-size: 7.5rem;
+  }
+
+  .lg\:leading-\[7\.5rem\] {
+    line-height: 7.5rem;
   }
 }
